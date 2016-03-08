@@ -1,6 +1,6 @@
 # Publication Workshop
 
-A 2-day design thinking workshop to better understand and brainstorm possible features for the Scores publication. Rough agenda below. Attended by Greg Albers, Eric Gardner, John Hicks, Michael Gallope, Natilee Harren, Janelle Gatchalian, Michele Ciaccio, and Torsten Edstam, and joined by Nancy Perloff.
+A 2-day design thinking workshop (December 2015) to better understand and brainstorm possible features for the Scores publication. Rough agenda below. Attended by Greg Albers, Eric Gardner, John Hicks, Michael Gallope, Natilee Harren, Janelle Gatchalian, Michele Ciaccio, and Torsten Edstam, and joined by Nancy Perloff.
 
 ## Day 1
 
