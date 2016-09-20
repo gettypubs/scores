@@ -5,8 +5,7 @@
 <style type="text/css">
 	.st0{opacity:0.8;fill:#FF0043;}
 	.st1{opacity:0.5;fill:#FF0043;}
-	.st2{opacity:0.1;fill:#FF0043;}
-	.st3{opacity:0.4;fill:#FF0043;}
+	.st2{opacity:0.2;fill:#FF0043;}
 </style>
 <g id="Image">
 	<g>
@@ -18,7 +17,7 @@
 		</clipPath>
 		<g style="clip-path:url(#SVGID_2_);">
 			
-				<image style="overflow:visible;" width="2939" height="1784" xlink:href="66AFBB0B72645242.jpg"  transform="matrix(0.343 0 0 0.343 -504 0)">
+				<image style="overflow:visible;" width="2939" height="1784" xlink:href="406C128145A4798C.jpg"  transform="matrix(0.343 0 0 0.343 -504 0)">
 			</image>
 		</g>
 	</g>
@@ -29,7 +28,8 @@
 	<rect id="t00:00:05" x="270" y="223.5" class="st0" width="17" height="23.5"/>
 	<rect id="t00:00:10" x="303" y="199" class="st1" width="11" height="48"/>
 	<circle id="t00:00:13" class="st2" cx="375" cy="220" r="35.5"/>
-	<circle id="t00:00:17" class="st3" cx="353.5" cy="298.5" r="21.5"/>
-	<polygon id="t00:00:14_1_" class="st0" points="66.5,273.5 66.5,299 107.5,316.5 107.5,291.5 	"/>
+	<polygon id="t00:00:15" class="st0" points="66.5,273.5 66.5,299 107.5,316.5 107.5,291.5 	"/>
+	<polygon id="t00:00:17_1_" class="st0" points="218.2,266.5 218.2,317.5 259.2,305 259.2,273 	"/>
+	<circle id="t00:00:20" class="st1" cx="353.5" cy="298.5" r="21.5"/>
 </g>
 </svg>
