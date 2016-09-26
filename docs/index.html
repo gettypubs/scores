@@ -1,0 +1,45 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Scores App Spotlight Prototype</title>
+  <script language="javascript" type="text/javascript" src="assets/path-data-polyfill.js"></script>
+  <script language="javascript" type="text/javascript" src="assets/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    main {
+      margin: 0 auto;
+      width: 1088px;
+    }
+    div {
+      width: 504px;
+      margin: 0 20px;
+      float: left;
+      background-image: url("assets/score.jpg");
+      background-repeat:repeat-x;
+    }
+    h3 {
+      width: 504px;
+      margin: 20px;
+      float: left;
+      font-family: sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h3 id="demo">SVG</h3>
+    <h3>p5.js</h3>
+    <div id="svg">
+      <object type="image/svg+xml" data="assets/scores_spotlightannotation_example.svg">
+      </object>
+    </div>
+    <div id="p5js">
+    </div>
+  </main>
+</body>
+</html>

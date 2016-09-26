@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 504 612" style="enable-background:new 0 0 504 612;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.8;fill:#FF0043;}
+	.st1{opacity:0.5;fill:#FF0043;}
+	.st2{opacity:0.2;fill:#FF0043;}
+	.st3{opacity:0.8;fill:none;stroke:#FF0043;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="Image">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" width="504" height="612"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_2_);">
+			
+				<image style="overflow:visible;" width="2939" height="1784" xlink:href="E544508450F9E265.jpg"  transform="matrix(0.343 0 0 0.343 -504 -4.1771)">
+			</image>
+		</g>
+	</g>
+</g>
+<g id="Spotlight">
+	<rect id="s00:00:10-e00:00:20" x="216.7" y="189" class="st0" width="11.3" height="20"/>
+	<rect id="s00:00:40-e00:00:49" x="239.7" y="214" class="st0" width="23" height="19"/>
+	<rect id="s00:00:50-e00:00:90" x="270" y="223.5" class="st0" width="17" height="23.5"/>
+	<rect id="s00:01:00-e00:01:29" x="303" y="199" class="st1" width="11" height="48"/>
+	<circle id="s00:01:30-e00:01:49" class="st2" cx="375" cy="220" r="35.5"/>
+	<polygon id="s00:01:50" class="st0" points="46,292 46,317.5 87,335 87,310 	"/>
+	<polygon id="e00:01:79" class="st0" points="66.5,273.5 66.5,299 107.5,316.5 107.5,291.5 	"/>
+	<polygon id="s00:01:80-e00:02:19" class="st0" points="218.2,266.5 218.2,317.5 259.2,305 259.2,273 	"/>
+	<circle id="s00:02:20" class="st1" cx="353.5" cy="298.5" r="11.5"/>
+	<circle id="e00:02:39" class="st1" cx="353.5" cy="298.5" r="31.5"/>
+	<circle id="s00:02:50" class="st0" cx="62.1" cy="373.7" r="10"/>
+	<path id="p00:02:50-00:03:30" class="st3" d="M62.1,373.6c31.4,2.2,47.7,58.4,79.7,41.3c10.2-5.4,11.4-16.6,18.5-24.7
+		c9.1-10.3,22.8-17.5,35.3-23.1"/>
+	<circle id="e00:03:30" class="st0" cx="195.6" cy="367.1" r="10"/>
+	
+		<rect id="s00:03:40" x="320" y="400" transform="matrix(0.9794 -0.2018 0.2018 0.9794 -76.6613 75.9119)" class="st2" width="28" height="28"/>
+	
+		<rect id="e00:03:70" x="318.9" y="388.7" transform="matrix(0.9794 -0.2018 0.2018 0.9794 -73.2504 86.741)" class="st2" width="140" height="28"/>
+	<circle id="s00:04:10" class="st2" cx="88.5" cy="498.5" r="21.5"/>
+	<circle id="e00:05:00" class="st2" cx="203" cy="498.5" r="21.5"/>
+	<rect id="s00:05:20" x="260" y="498.5" class="st0" width="28" height="28"/>
+	<rect id="e00:05:90" x="260" y="498.5" class="st0" width="140" height="28"/>
+</g>
+</svg>
