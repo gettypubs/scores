@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Scores App Spotlight Prototype</title>
+  <script language="javascript" type="text/javascript" src="assets/path-data-polyfill.js"></script>
+  <script language="javascript" type="text/javascript" src="assets/p5.js"></script>
+  <!-- <script language="javascript" type="text/javascript" src="sketch.js"></script> -->
+  <script language="javascript" type="text/javascript" src="sketch-instance.js"></script>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    main {
+      margin: 0 auto;
+      width: 1304px;
+    }
+    div {
+      width: 612px;
+      margin: 0 20px;
+      float: left;
+      background-image: url("assets/notation-j.jpg");
+      background-repeat:repeat-x;
+    }
+    h3 {
+      width: 612px;
+      margin: 20px;
+      float: left;
+      font-family: sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h3 id="demo">SVG</h3>
+    <h3>p5.js</h3>
+    <div id="svg">
+      <!-- <img src="assets/notation-j.jpg" /> -->
+      <object type="image/svg+xml" data="assets/scores_spotlight-prototype.svg">
+      </object>
+    </div>
+    <div id="p5js">
+    </div>
+  </main>
+</body>
+</html>
