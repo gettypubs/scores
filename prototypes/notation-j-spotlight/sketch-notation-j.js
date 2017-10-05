@@ -9,7 +9,29 @@ var opacity = 0.02 * 255;
 
 var s = 1/3; // scale of illustration from original Illustrator file
 
-// startTime,startX,startY,startMatrix1,startMatrix2,startMatrix3,startMatrix4,startMatrix5,startMatrix6,startWidth,startHeight,endTime,endX,end7,endMatrix1,endMatrix2,endMatrix3,endMatrix4,endMatrix5,endMatrix6,endWidth,endHeight
+// The following strings of numbers are derived from an SVG file exported from
+// Adobe Illustrator. In Illustrator, each shape is drawn and its layer is named
+// with either a start time (s00:00:30), or an end time (e00:02:10). These
+// shapes represent the starting position and ending position of the spotlight
+// animation.
+//
+// A typical SVG output then looks like this:
+//
+// <rect id="s00:00:30" x="527.7" y="342" transform="matrix(0.9644 0.2643 -0.2643
+//   0.9644 113.8092 -130.8658)" class="st5" width="31.1" height="31.1"/>
+//
+// <rect id="e00:02:10" x="60.7" y="279.2" transform="matrix(0.9644 0.2643 -0.2643
+//   0.9644 89.0495 -72.498)" class="st5" width="506.6" height="31.1"/>
+//
+// All the resulting numbers are concatenated in the following sequence,
+// and fed into the p5 sketch:
+//
+// startTime,startX,startY,startMatrix1,startMatrix2,startMatrix3,
+// startMatrix4,startMatrix5,startMatrix6,startWidth,startHeight,endTime,
+// endX,end7,endMatrix1,endMatrix2,endMatrix3,endMatrix4,endMatrix5,
+// endMatrix6,endWidth,endHeight
+//
+
 var cage1 = [30,527.7,342,0.9644,0.2643,-0.2643,0.9644,113.8092,-130.8658,31.1,31.1,210,60.7,279.2,0.9644,0.2643,-0.2643,0.9644,89.0495,-72.498,506.6,31.1]
 var cage2 = [232,70.6,214.2,0.998,-6.317707e-02,6.317707e-02,0.998,-14.3446,5.8834,30.6,31.1,300,69.4,177.7,0.998,-6.317707e-02,6.317707e-02,0.998,-10.885,42.256,1186.7,31.1]
 var cage3 = [303,988.6,87.7,0.9907,-0.1361,0.1361,0.9907,-4.7175,137.5824,30.1,31.1,320,64.8,150.9,0.9907,-0.1361,0.1361,0.9907,-17.5962,75.5864,958.2,31.1]
@@ -222,7 +244,6 @@ function rotatedRect(v) {
   	var ny3 = v[5] * x3 + v[7] * y3 + v[9];
     var nx4 = v[4] * x4 + v[6] * y4 + v[8];
   	var ny4 = v[5] * x4 + v[7] * y4 + v[9];
-    // clear();
     quad(nx1,ny1,nx2,ny2,nx3,ny3,nx4,ny4);
 }
 
