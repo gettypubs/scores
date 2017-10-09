@@ -105,6 +105,7 @@ var c = function( p ) {
     }
   };
 
+  // Create shape for single frame
   function rotatedSpotlight(v) {
     var x1 = v[0];
     var y1 = v[1];
@@ -114,6 +115,8 @@ var c = function( p ) {
     var y3 = v[1] + v[3];
     var x4 = v[0] + v[2];
     var y4 = v[1];
+    // The six matrix transformation values are used to calculate the new
+    // positions for the four sets of x,y values given above. Rotating the shape. 
     // https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform
     var nx1 = v[4] * x1 + v[6] * y1 + v[8];
     var ny1 = v[5] * x1 + v[7] * y1 + v[9];
