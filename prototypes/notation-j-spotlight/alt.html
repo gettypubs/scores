@@ -7,27 +7,45 @@
   <script language="javascript" type="text/javascript" src="sketch-notation-j-alt.js"></script>
   <link rel="stylesheet" href="../../assets/base.css">
   <style>
-    #p5js {
-      width: 688px;
-      margin: 0 auto;
-      background-image: url("assets/notation-j.jpg");
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #playback {
+      margin: .75rem;
+      padding: .25rem .75rem;
+      max-height: 2.5rem;
+    }
+    .p5js {
+      width: 80%;
+      margin: 0 10%;
       background-repeat:no-repeat;
       background-size: contain;
     }
-    h1, #playback {
-      display: inline-block;
+    #cage {
+      background-image: url("assets/notation-j-cage.jpg");
     }
-    #playback {
-      float: right;
-      margin: .75em;
+    #tudor {
+      background-image: url("assets/notation-j-tudor.jpg");
+    }
+    #cage canvas,
+    #tudor canvas {
+      width: 100% !important;
+      height: auto !important;
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>Notation J Alt (Cage only, in progress)</h1>
-    <button type="button" id="playback">Play</button>
-    <div id="p5js">
+    <header>
+      <h1>Notation J — Alt</h1>
+      <button type="button" id="playback">Play</button>
+    </header>
+    <div class="p5js" id="cage">
+    </div>
+    <div class="p5js" id="tudor">
     </div>
   </main>
 </body>
